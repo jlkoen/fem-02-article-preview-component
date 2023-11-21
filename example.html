@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Example</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div
+      class="flex min-h-screen items-center justify-center bg-gradient-to-br from-neutral-500 to-neutral-500 p-4"
+    >
+      <!-- card -->
+      <div
+        class="overflow-hidden rounded-xl bg-white shadow-xl shadow-neutral-600 max-w-sm sm:max-w-3xl sm:flex"
+      >
+        <!-- left side -->
+        <img
+          class="sm:w-1/2 sm:object-cover"
+          src="https://picsum.photos/id/54/3264/2176?grayscale=true&blur=3"
+          alt="mountain and clouds"
+        />
+        <!-- right side -->
+        <div class="p-6">
+          <h1 class="mb-2 text-2xl text-neutral-950">Enim Nulla</h1>
+          <p class="text-neutral-950 mb-4">
+            Ipsum eu nisi labore amet dolor occaecat eu nulla do aliquip sint.
+            Exercitation elit amet exercitation est culpa duis reprehenderit
+            anim minim cillum culpa id et cillum. Est velit quis irure aliqua
+            est laboris.
+          </p>
+          <div class="flex items-center justify-start gap-4">
+            <img
+              class="w-12 rounded-full"
+              src="https://picsum.photos/seed/1688346662368/300/300"
+              alt="placeholder image"
+            />
+            <div>
+              <p class="text-sm font-bold">elit nulla laboris</p>
+              <p class="text-sm">minim ea nostru</p>
+            </div>
+            <button class="ml-auto">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="icon icon-tabler icon-tabler-share-3"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                stroke-width="2"
+                stroke="currentColor"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                <path
+                  d="M13 4v4c-6.575 1.028 -9.02 6.788 -10 12c-.037 .206 5.384 -5.962 10 -6v4l8 -7l-8 -7z"
+                ></path>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
